@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Costance Manake - Frontend Developer</title>
+    <meta
+      name="description"
+      content="Costance Manake is a Frontend Web Developer specializing in HTML, CSS, JavaScript, React, Tailwind CSS, REST API integration, and Node.js. Building responsive and interactive web experiences."
+    />
+    <meta
+      name="keywords"
+      content="Costance Manake, Frontend Developer, Web Developer Uganda, Remote, React Developer, JavaScript Developer, HTML CSS, Tailwind CSS, Node.js, Portfolio Website"
+    />
+    <meta name="author" content="Costance Manake" />
+    <!-- social media sharing  -->
+    <meta
+      property="og:title"
+      content="Costance Manake | Frontend Web Developer"
+    />
+    <meta
+      property="og:description"
+      content="Engineering responsive and interactive web experiences using React, JavaScript, and Tailwind CSS."
+    />
+    <meta property="og:image" content="images/social-share.jpg" />
+    <meta
+      property="og:url"
+      content="https://khonnie.github.io/Costance-Portifolio/"
+    />
+    <meta property="og:type" content="website" />
+    <!-- favicon -->
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- ----------Header Section-------------- -->
+    <header>
+    <!-- Name & github logo -->
+    <div class="left-side">
+      <a href="index.html" class="logo">
+        CM
+      </a>
+      <a href="https://github.com/khonnie" class="intro" target="_blank">
+        <i class="fa-brands fa-github"></i> Follow
+      </a>
+    </div>
+    <!-- Navigation sections -->
+    <ul class="middle">
+      <li><a href="about.html" target="_blank"><i class="fa fa-user"></i> About</a></li>
+
+      <li class="dropdown">
+        <a href="projects.html" target="_blank"><i class="fa fa-briefcase"></i> Projects</a>
+      </li>
+
+      <li class="dropdown">
+        <a href="skills.html" target="_blank"><i class="fa fa-code"></i> Skills</a>
+      </li>
+      <li><a href="contact.html" target="_blank"><i class="fa fa-phone"></i> Contact</a></li>
+    </ul>
+
+    <div class="right-side">
+      <a href="resume/Connie-Manake-Resume.pdf" target="_blank"> <i class="fa fa-file-pdf"></i> Resume</a>
+      <span><i class="fa-regular fa-sun"></i></span>
+    </div>
+  </header>
+    <!-- --------------Hero Section---------- -->
+    <section class="hero">
+      <img
+        src="images/projects.jpg"
+        alt="passport-photo"
+        width="300px"
+        height="350px"
+      />
+      <div class="hero-wrapper">
+        <h1 class="hero-projects">Projects that showcase my skills in Web Development</h1>
+        <!-- <p class="hero-subtitle"></p> -->
+        <p class="hero-text">
+          Explore web applications I’ve built using HTML, CSS, Bootstrap,
+          Django, Python, and JavaScript — 
+          focused on real-world solutions and user experience.
+        </p>
+        <div class="hero-buttons">
+          <a
+            href="https://www.linkedin.com/in/costance-manake-a4429895"
+            target="_blank"
+            class="btn first-btn"
+          >
+            <i class="fab fa-linkedin"></i> Connect</a
+          >
+          <a href="#experience" class="btn second-btn">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section-->
+    <section id="projects" class="projects-section">
+      <div class="projects-container">
+        <h2 class="projects-title">Featured Projects</h2>
+
+        <div class="projects-grid">
+         
+          <!-- Project 1 -->
+          <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+              <img src="images/webport.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A modern responsive developer portfolio built to showcase my
+              projects, skills, and experience. Designed with a clean UI and
+              optimized for performance and accessibility.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/Costance-Portifolio"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href="https://khonnie.github.io/Costance-Portifolio/
+"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+
+          <!-- Project 2 -->
+          <div class="project-card">
+            <h3>Delicious Bites Landing Page</h3>
+<img src="images/deliciousbites.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A modern restaurant landing page built using HTML and CSS as part
+              of the Women in Technology Uganda (WITU) Web Development
+              assignment. The page features a clean layout, menu sections,
+              pricing tables, and a contact form designed for a great user
+              experience.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Responsive Design</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/delicious-bites"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href="https://khonnie.github.io/delicious-bites/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+          <!-- project 3 -->
+          <div class="project-card">
+            <h3>Task Management App</h3>
+<img src="images/taskmanager.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A dynamic task management application that allows users to create,
+              edit, complete and Delete tasks with persistent storage using
+              localStorage. The app features a clean and intuitive interface,
+              making it easy for users to organize their tasks and boost
+              productivity.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>localStorage</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/simple_task_manager"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href="https://khonnie.github.io/simple_task_manager/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="project-card">
+            <h3>Expense Tracker Application</h3>
+<img src="images/tracker.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A responsive web application that allows users to add, edit,
+              delete and manage income and expenses with automatic balance
+              calculation and persistent data storage.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>localStorage</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/Expense-Tracker-"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href="https://khonnie.github.io/Expense-Tracker-/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="project-card">
+            <h3>Bookmark Manager</h3>
+<img src="images/bookmark.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A browser-based bookmark manager that allows users to save,
+              organize, and manage their favorite websites with a clean and
+              intuitive interface.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>localStorage</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/Bookmark_Marker"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href="https://khonnie.github.io/Bookmark_Marker/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="project-card">
+            <h3>Eisenhower Matrix App</h3>
+<img src="images/matrix.png" alt="" width="100%" height="200px" 
+              style="object-fit: cover;">
+            <p class="project-description">
+              A productivity web app that helps users prioritize 
+              tasks using the Eisenhower Matrix (Urgent vs Important)
+            </p>
+
+            <div class="project-tech">
+              <span>React + Vite</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>localStorage</span>
+            </div>
+
+            <div class="project-links">
+              <a
+                href="https://github.com/Khonnie/Eisenhower-matrix-app"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i> Code
+              </a>
+
+              <a
+                href= "https://khonnie.github.io/Eisenhower-matrix-app/"
+                target="_blank"
+              >
+                <i class="fas fa-external-link-alt"></i> Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="footerinfo">
+        <h3>Important Links</h3>
+        <div class="important-links links">
+          <a href="about.html" target="_blank">About</a>
+          <a href="projects.html" target="_blank">Projects</a>
+          <a href="skills.html" target="_blank">Skills</a>
+          <a href="contact.html" target="_blank">Contact</a>
+        </div>
+      </div>
+
+      <div class="footerinfo">
+        <h3>Contact Info</h3>
+        <div class="contactsinfo links">
+          <a href="mailto:mcostance@gmail.com">
+            <i class="fas fa-envelope"></i> mcostance@gmail.com
+          </a>
+          <a href="">📞 +256759322015</a>
+          <p>📍 Remote Remote (Available Worldwide)</p>
+        </div>
+      </div>
+
+      <div class="footerinfo">
+        <h3>Social Links</h3>
+        <div class="social-links links">
+          <a href="https://github.com/khonnie" target="_blank">
+            <i class="fab fa-github"></i> Github
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/costance-manake-a4429895"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© Costance Manake 2026. All rights reserved.</p>
+  </body>
+</html>
