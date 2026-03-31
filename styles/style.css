@@ -23,18 +23,18 @@ body {
 /* =========================
    GLOBAL SECTION SPACING
 ========================= */
-section {
+/* section {
   padding: 60px 20px;
-}
+} */
 
-hr {
+/* hr {
   margin: 20px 0;
-}
+} */
 h1{
-  background: linear-gradient(to right, #064bf876, #023b736b);
+  background: linear-gradient(to right, #072ac8, #0077b6);
   background-clip: text;
   color: transparent;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 2.5rem;
 }
 
@@ -233,14 +233,15 @@ header {
   width: 100%;
   height: 700px;
   flex-wrap: wrap;
-  text-align: center;
+  /* text-align: center; */
 
 }
-.gradient-text{
-  background: linear-gradient(to right, #064af8, #0a66c2a6);
+/* .gradient-text{
+  background: linear-gradient(to right, #064af8, #000a13a6);
   background-clip: text;
   color: transparent;
-}
+
+} */
 
 /* .hero{
 min-height:100vh;
@@ -273,22 +274,24 @@ text-align:center;
   max-width: 800px;
 }
 
-.hero-subtitle {
+/* .hero-subtitle {
   font-size: 1.25rem;
   color: #6b7280;
-}
+} */
 
 .hero-text {
+  flex: 1;
   max-width: 600px;
   margin: 30px auto;
   font-size: 1.1rem;
   line-height: 1.7;
   color: #444;
+  /* text-align: center; */
 }
 
 .hero-buttons {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 15px;
   margin-top: 20px;
 
@@ -970,23 +973,28 @@ color: black;
 
 }
 
-/* floating buttons */
-.floating-buttons {
+/* Floating button styling */
+
+.whatsapp-fab {
   position: fixed;
+  width: 60px;
+  height: 60px;
   bottom: 20px;
   right: 20px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-  
-  
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
 }
-.floating-btn {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  
-  /* color: white; */
-  font-size: 20px;
-  transition: all 0.3s ease;
+
+.whatsapp-fab:hover {
+  transform: scale(1.1); /* Slight pop effect on hover */
 }
